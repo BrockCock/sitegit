@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт с кнопками</title>
+    <style>
+        body {
+            position: relative;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            overflow: hidden; /* Отключаем прокрутку, если кнопки выходят за границы */
+        }
+
+        .button {
+            padding: 15px 30px;
+            font-size: 24px;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            position: absolute; /* Позволяет размещать кнопки в произвольных местах */
+        }
+
+        .button:hover {
+            transform: scale(1.05);
+        }
+
+        .button1 { background-color: #007bff; top: 10%; left: 20%; }
+        .button2 { background-color: #28a745; top: 20%; left: 60%; }
+        .button3 { background-color: #dc3545; top: 30%; left: 15%; }
+        .button4 { background-color: #ffc107; top: 40%; left: 70%; }
+        .button5 { background-color: #17a2b8; top: 50%; left: 10%; }
+        .button6 { background-color: #6f42c1; top: 60%; left: 55%; }
+        .button7 { background-color: #fd7e14; top: 70%; left: 30%; }
+        .button8 { background-color: #6610f2; top: 80%; left: 20%; }
+        .button9 { background-color: #e83e8c; top: 15%; left: 80%; }
+        .button10 { background-color: #20c997; top: 25%; left: 40%; }
+        .button11 { background-color: #c82333; top: 35%; left: 5%; }
+        .button12 { background-color: #007bff; top: 45%; left: 75%; }
+        .button13 { background-color: #28a745; top: 55%; left: 35%; }
+        .button14 { background-color: #dc3545; top: 65%; left: 85%; }
+        .button15 { background-color: #ffc107; top: 75%; left: 15%; }
+        .button16 { background-color: #17a2b8; top: 85%; left: 50%; }
+        .button17 { background-color: #6f42c1; top: 10%; left: 90%; }
+        .button18 { background-color: #fd7e14; top: 20%; left: 30%; }
+        .button19 { background-color: #6610f2; top: 30%; left: 50%; }
+        .button20 { background-color: #e83e8c; top: 40%; left: 25%; }
+
+        .table-container {
+            margin-top: 50px;
+            padding: 20px;
+            border: 2px solid #28a745;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+            position: absolute; /* Для размещения таблицы */
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%); /* Центрируем таблицу */
+        }
+
+        .table-container:hover {
+            transform: scale(1.05);
+        }
+
+        .table-container p {
+            margin: 0;
+            font-size: 24px;
+            font-weight: bold;
+            color: #28a745;
+        }
+
+        .button-text {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <button class="button button1" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+    <button class="button button2" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+    <button class="button button3" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+    <button class="button button4" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+
+    <button class="button button5" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+    <button class="button button6" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+    <button class="button button7" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+    <button class="button button8" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+    <button class="button button9" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+    <button class="button button10" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+    <button class="button button11" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+    <button class="button button12" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+    <button class="button button13" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+    <button class="button button14" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+    <button class="button button15" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+    <button class="button button16" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+    <button class="button button17" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+    <button class="button button18" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+    <button class="button button19" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+    <button class="button button20" onclick="window.location.href='https://parad1st.github.io/Screamer/'"><span class="button-text">Не Н@ЖИМ@Й</span></button>
+
+    <div class="table-container" onclick="window.location.href='https://t.me/v8x51'">
+        <p>🌟 РЕКЛАМА TG @v8x51 🌟</p>
+        <p>👉 Нажми сюда!</p>
+    </div>
+
+</body>
+</html>
